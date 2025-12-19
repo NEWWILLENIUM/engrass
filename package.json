@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/mirror-images.mjs",
+    "prebuild": "node /mirror-images.mjs",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
