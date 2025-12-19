@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // scripts/mirror-images.mjs
+=======
+ scripts/mirror-images.mjs
+>>>>>>> 594970dac7d465e7561ad26e158595f2901255eb
 // Mirrors remote image URLs into ./public so deployments are stable.
 // - Reads image-sources.json
 // - Downloads into ./public/renderings and ./public/history

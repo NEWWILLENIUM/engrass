@@ -2,11 +2,15 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
+<<<<<<< HEAD
     "lib": [
       "ES2020",
       "DOM",
       "DOM.Iterable"
     ],
+=======
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+>>>>>>> 594970dac7d465e7561ad26e158595f2901255eb
     "module": "ESNext",
     "skipLibCheck": true,
     "moduleResolution": "bundler",
@@ -18,6 +22,7 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+<<<<<<< HEAD
     "noFallthroughCasesInSwitch": true,
     "types": [
       "vite/client"
@@ -28,3 +33,9 @@
     "scripts"
   ]
 }
+=======
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
+>>>>>>> 594970dac7d465e7561ad26e158595f2901255eb
