@@ -16,6 +16,13 @@ export const renderingFiles: ManifestItem[] = [
   { file: "Engrass_Lofts_Unit2_Interior_View.jpg" },
   { file: "Engrass_Lofts_Unit2_Loft_Truss.jpg" },
   { file: "Engrass_Lofts_Unit2_Section_View.jpg" },
+  { file: "pasteboard-01.jpg" },
+  { file: "pasteboard-02.jpg" },
+  { file: "pasteboard-03.jpg" },
+  { file: "pasteboard-04.jpg" },
+  { file: "pasteboard-05.jpg" },
+  { file: "pasteboard-06.jpg" },
+  { file: "pasteboard-unit-2.jpg", label: "Unit 2" },
 ];
 
 export const historyFiles: ManifestItem[] = [

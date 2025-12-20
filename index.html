@@ -4,87 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Enggrass Lofts | Historic Luxury in Pontiac</title>
+
+    <!-- Keep Tailwind CDN only if you're intentionally using it this way -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               emerald: {
-                800: '#1E4E42', // Rich Hunter Green
-                900: '#0F2F28', // Deep Forest
-                950: '#051A18', // Black-Green (Primary Dark)
+                800: "#1E4E42",
+                900: "#0F2F28",
+                950: "#051A18",
               },
               copper: {
-                50: '#FAF9F6', // Alabaster/Cream (Backgrounds)
-                100: '#F0E6D2', // Champagne (Light Accents)
-                400: '#D4AF37', // Metallic Gold (Primary Accent)
-                600: '#B8860B', // Dark Goldenrod (Hover States)
-                800: '#8B6508', // Antique Bronze
+                50: "#FAF9F6",
+                100: "#F0E6D2",
+                400: "#D4AF37",
+                600: "#B8860B",
+                800: "#8B6508",
               },
-              charcoal: '#1a1a1a',
+              charcoal: "#1a1a1a",
             },
             fontFamily: {
-              serif: ['"Playfair Display"', 'serif'],
-              sans: ['"Montserrat"', 'sans-serif'],
+              serif: ['"Playfair Display"', "serif"],
+              sans: ['"Montserrat"', "sans-serif"],
             },
             backgroundImage: {
-              'brick-pattern': "url('https://www.transparenttextures.com/patterns/dark-brick-wall.png')",
-            }
+              "brick-pattern":
+                "url('https://www.transparenttextures.com/patterns/dark-brick-wall.png')",
+            },
           },
         },
-      }
+      };
     </script>
+
     <style>
-      /* Custom scrollbar for a premium feel */
       ::-webkit-scrollbar {
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #051A18; 
+        background: #051a18;
       }
       ::-webkit-scrollbar-thumb {
-        background: #D4AF37; 
+        background: #d4af37;
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #B8860B; 
+        background: #b8860b;
       }
       .font-smooth {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
       }
       .text-shadow {
-        text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
       }
     </style>
-<<<<<<< HEAD
   </head>
+
   <body class="bg-gray-50 text-gray-800 font-smooth antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-=======
-  <script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.1",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.1/",
-    "react/": "https://esm.sh/react@^19.2.1/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.559.0",
-    "react-hook-form": "https://esm.sh/react-hook-form@^7.68.0",
-    "vite": "https://esm.sh/vite@^7.2.7",
-    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
-  }
-}
-</script>
-<link rel="stylesheet" href="/index.css">
-</head>
-  <body class="bg-gray-50 text-gray-800 font-smooth antialiased">
-    <div id="root"></div>
-    <script type="module" src="/index.tsx"></script>
->>>>>>> 594970dac7d465e7561ad26e158595f2901255eb
   </body>
 </html>
