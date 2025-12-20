@@ -34,5 +34,6 @@ export const renderingFiles: ManifestItem[] = [
 
 export const historyFiles: ManifestItem[] = [
   { file: "Gemini_Generated_Image_1zgnpm1zgnpm1zgn.png" },
-  { file: "history-01.jpg", label: "Historic Photo" },
+  { file: "history-01.jpg" },
+  { file: "history-original-building.png", label: "Original Enggrass Building" },
 ];
