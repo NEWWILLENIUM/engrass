@@ -22,9 +22,17 @@ export const renderingFiles: ManifestItem[] = [
   { file: "pasteboard-04.jpg" },
   { file: "pasteboard-05.jpg" },
   { file: "pasteboard-06.jpg" },
-  { file: "pasteboard-unit-2.jpg", label: "Unit 2" },
+  { file: "pasteboard-unit-2.jpg" },
+  { file: "rendering-01.jpg" },
+  { file: "rendering-02.jpg" },
+  { file: "rendering-03.jpg" },
+  { file: "rendering-04.jpg" },
+  { file: "rendering-05.jpg" },
+  { file: "rendering-06.jpg" },
+  { file: "rendering-unit-2.jpg", label: "Unit 2" },
 ];
 
 export const historyFiles: ManifestItem[] = [
   { file: "Gemini_Generated_Image_1zgnpm1zgnpm1zgn.png" },
+  { file: "history-01.jpg", label: "Historic Photo" },
 ];
